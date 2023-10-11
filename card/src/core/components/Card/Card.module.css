@@ -1,0 +1,36 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.imageWrapper{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 10px;
+}
+.image{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.name{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    padding: 6px 10px;
+    background: rgba(0,0,0,0.4);
+    border-radius: 10px;
+}
+
+.price{
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #000;
+}
+
+.description{
+    color: #000;
+}
